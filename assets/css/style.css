@@ -241,71 +241,214 @@ h3{
 	width:device-width;
 }
 
+@media (max-width:980px){
 
-@media (max-width:640px){
-		html,
-		body{
-			width: 25%;
-			position: static;
+	.name-block{
+		background-color: #4aaaa5;
+		color:white;
+		float:left;
+		padding: 25px 40px 28px 40px;
+		margin-top: 13px;
+		z-index: 1;
+		margin-left: 10%;
 	}
-		#navbar{
-			background: none;
-			background-color: #fff;
-			width:440px;
-			margin-left:0;
+
+	ul{
+		clear:both;
+		list-style-type: none;
+		background: #fff;
+		position: relative;
+		width:100%;
+		top:0;
+		padding:40px 0 50px 0;
+		margin-top: 0;
+		margin-left:-80px;
 	}
-		.body{
-			width: 440px;
-			background-color: #fff;
-			padding:0;
-			line-height: 1.5;
-			box-shadow: 10px 10px 5px grey;
+
+	li{
+		padding: 0 0 0 50px;
+		text-decoration: none;
 	}
-		.contact{
-			width: 40%;
-			background-color: #fff;
-			padding:0;
-			line-height: 1.5;
-			color: #666666;
-			font-size: 16px;
+
+	.container{
+		width:100%;
+		margin:15px;
+	}
+
+	.body{
+		width: 40%;
+		float:none;
+		margin:60px 0 60px;
+		margin-left:8%;
+		float:left;
+	}
+
+	.social{
+		width: 25%;
+		float:none;
+		margin-right:10%;
+		margin-top: 6%;
+		float:right;
+	}
+
+	#about-img{
+		float:none;
+	}
+
+	.contact{
+		width: 40%;
+		float:none;
+		margin:60px 0 60px;
+		margin-left:8%;
+		float:left;
+	}
+
+	.portfolio{
+		width: 40%;
+		float:none;
+		margin:60px 0 60px;
+		margin-left:8%;
+		float:left;
+	}
+
+	.portfolio img{
+		position:relative;
+	}
+
+	h3{
+		display: block;
+	}
+
+	footer{
+		float: none;
+		margin: 0;
+	}
+	
 }
 
-		#name,
-		#mail{
-			width:75%;
-			height:25px;
-			margin-bottom: 20px;
+
+@media (max-width:768px){
+
+	.name-block{
+		background-color: #4aaaa5;
+		color:white;
+		float:left;
+		padding: 25px 40px 28px 40px;
+		margin-top: 13px;
+		z-index: 1;
+		margin-left: 3%;
+	}
+
+	ul{
+		clear:both;
+		list-style-type: none;
+		background: #fff;
+		width:100%;
+		top:0;
+		padding:40px 0 50px 0;
+		margin-top: 0;
+		margin-left:-40px;
+	}
+
+	li{
+		padding: 0 0 0 50px;
+		text-decoration: none;
 		}
 
-		#msg{
-			width: 75%;
-			height:150px;
-		}
+	.container{
+		width:85%;
+		margin:5%;
+	}
 
-		button{
-			color:#fff;
-			background-color: #4aaaa5;
-			display: inline-block;
-			margin: 10px 10px 10px 10px;
-			padding: 15px 35px;
-			font-size: 16px;
-			line-height: 1.2;
-			border:none;
-		}
+	.body{
+		width: 100%;
+		float:none;
+		margin:60px 0;
+	}
+	
+	#about-img{
+		float:left;
+	}
 
-		::-webkit-input-placeholder{
-		 	font-size: 14px;
-		 	padding:5px;
- }
-		 .social{
-			width:50%;
-			background-color: #fff;
-			padding: 20px;
-			box-shadow: 10px 10px 5px grey;
-		}
+	.social{
+		width: 100%;
+		float:none;
+		margin:0;
+	}
 
-		.social img{
-			width: 50px;
-			padding:10px;
-		}
+	.contact{
+		width:100%;
+		float: none;
+		margin: 60px 0;
+	}
+
+	footer{
+		float: none;
+		margin: 0;
+	}
+
+	.portfolio{
+		width:100%;
+		float:none;
+	}
+	
+}
+
+
+@media (max-width:640px){
+
+	.name-block{
+		width: 640px;
+		float: none;
+		margin:0;
+		text-align: center;
+	}
+
+	ul{
+		width:100%;
+		padding:13%;
+		margin-left:50px;
+	}
+
+	li{
+		float:left;
+		padding:40px 50px;
+		position: static;
+	}
+
+	.container{
+		width:640px;
+		margin:15px;
+	}
+
+	.body{
+		width: 100%;
+		float:none;
+		margin:60px 0;
+	}
+
+	.contact{
+		width:100%;
+		float: none;
+	}
+
+	.portfolio{
+		width:100%;
+		float:none;
+	}
+
+	.social{
+		width: 100%;
+		float:none;
+		margin:0;
+	}
+
+	footer{
+		float: none;
+		margin: 0;
+		width: 720px;
+	}
+	
+
+	
 }
